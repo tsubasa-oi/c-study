@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void){
+//int main(void){
     // printf("Hello World.\n");
     // printf("こんにちは。私の名前は%sです。\n年齢は%d歳です。\n", "山田太郎", 20);
     // printf("%d + %d = %d\n", 5, 2, 5 + 2);
@@ -147,7 +147,125 @@ int main(void){
     //     }
     // }
     // printf("終了\n");
-}
+
+    // 配列の基本
+    // double d[4];
+    // double sum, avg;
+    // int i;
+    // // 値を代入
+    // d[0] = 1.2;
+    // d[1] = 3.7;
+    // d[2] = 4.1;
+    // d[3] = 2.0;
+    // sum = 0.0;
+    // for (i = 0; i < 4; i++) {
+    //     printf("%f ", d[i]);
+    //     sum += d[i];
+    // }
+
+    // printf("\n");
+    // avg = sum / 4.0;
+    // printf("合計値：%f\n", sum);
+    // printf("平均値：%f\n", avg);
+
+    // int n[] = {5,4,3,2,1,0};
+    // int i;
+    // for (i = 0; i < 6; i++){
+    //     printf("n[%d]=%d ", i, n[i]);
+    // }
+
+    // printf("\n");
+
+    // char s1[4] = {'a','b','c','\0'}; // 文字列"ABC"
+    // char s2[] = "helloWorld.";
+    // char s3[10];
+
+    // printf("文字列を入力してください。：");
+    // scanf("%s", s3);
+    // printf("s1 = %s\n", s1);
+    // printf("s2 = %s\n", s2);
+    // printf("s3 = %s\n", s3);
+
+    // int a[3][4];
+    // int m,n;
+
+    // for (m = 0; m < 3; m++) {
+    //     for (n = 0; n < 4; n++) {
+    //         a[m][n] = m + n;
+    //     }
+    // }
+
+    // for (m = 0; m < 3; m++) {
+    //     for (n = 0; n < 4; n++) {
+    //         printf("%d", a[m][n]);
+    //     }
+    //     printf("\n");
+    // }
+//}
+
+// 関数
+// double avg(double l, double m) {
+//     double r = (l + m) / 2.0;
+//     return r;
+// }
+
+// int main(void){
+//     double d1, d2, d3;
+//     double a = 1.2, b = 3.4, c = 2.7;
+//     d1 = avg(a, b);
+//     d2 = avg(4.1, 5.7);
+//     d3 = avg(c, 2.8);
+//     printf("d1 = %f,d2 = %f,d3 = %f\n", d1,d2,d3);
+// }
+
+//プロトタイプ宣言
+// double avg(double, double);
+
+// int main(void){
+//     double d1, d2, d3;
+//     double a = 1.2, b = 3.4, c = 2.7;
+//     d1 = avg(a, b);
+//     d2 = avg(4.1, 5.7);
+//     d3 = avg(c, 2.8);
+//     printf("d1 = %f,d2 = %f,d3 = %f\n", d1,d2,d3);
+// }
+
+// double avg(double l, double m) {
+//     double r = (l + m) / 2.0;
+//     return r;
+// }
+
+// int max(int, int);
+// void show(int);
+// void line();
+
+// int main(void) {
+//     int n1 = 4, n2 = 5;
+//     line();
+//     show(n1);
+//     show(n2);
+//     printf("二つの数のうち、大きい数は、%dです。\n", max(n1,n2));
+// }
+
+// // 2つの整数のうち最大値を求める関数
+// int max(int a, int b){
+//     if (a > b){
+//         return a;
+//     } else {
+//     return b;
+//     }
+// }
+
+// void show(int n){
+//     printf("数値：%d\n", n);
+//     return;
+// }
+
+// void line(){
+//     printf("***********\n");
+// }
+
+
 
 /*
 書式指定
